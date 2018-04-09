@@ -28,7 +28,8 @@ $(document).ready(function () {
   function gifDisplay() {
     buttonMaker();
     var puppyChoice = $(this).attr('data-name');
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + puppyChoice + "&limit=15&api_key=dc6zaTOxFJmzC";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + puppyChoice + "&limit=15&api_key=IDgDOoRj1jn0TIBgDGRFoMqMNCKgq4k3";
+    console.log(queryURL);
     console.log(puppyChoice);
     $("#div2").empty();
      
